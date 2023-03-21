@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.logo {
+    padding: 2rem 5rem;
+}
+
+.headbtn1 {
+    float: right;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background: #c0090e;
+    border-radius: .5rem;
+    font-size: 2rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+.headbtn2 {
+    float: right;
+    text-decoration: none;
+    padding: .5rem 2.3rem;
+    background: #c0090e;
+    border-radius: .5rem;
+    font-size: 2rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+.ratios {
+    display: flex;
+}
+
+.ads {
+    background: #dcdbde60;
+    width: 20vw;
+    height: 166rem;
+    flex: 1;
+    order: 1;
+    margin-right: 1rem
+}
+
+.mains {
+    width: 80vw;
+    flex: 6;
+    order: 2;
+    position: relative;
+    height: 160rem;
+}
+
+.menu {
+    background-image: url(hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.menuitems {
+    text-align: right;
+}
+
+.item1 {
+    margin-top: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    padding: 5rem 2rem;
+    color: white;
+}
+
+.search {
+    margin-top: 25rem;
+    text-align: center;
+}
+
+.want {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 25rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.locate {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 17rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.submit {
+    background: #c0090e;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    width: 7rem;
+    border: none;
+    opacity: .8;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.popular {
+    background: rgba(255, 255, 255, 0.308);
+    width: 84.5vw;
+    margin-top: 15rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.pop {
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+    padding-top: .5rem;
+    font-size: 2rem;
+}
+
+.pop1,
+.pop2,
+.pop3,
+.pop4 {
+    padding: .5rem 1.5rem;
+    font-size: 2rem;
+    background: #00afefc5;
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.categories {
+    background: #f4effb94;
+    padding-top: 2rem;
+    width: 100%;
+    padding-bottom: 3rem;
+    /* align-self: auto; */
+    /* position: relative; */
+}
+
+.tab1 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4rem 4rem 3rem 4rem;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+
+.image1 {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 4rem;
+}
+
+.tab2 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4rem 6rem 3rem 6rem;
+    margin-right: 4rem;
+}
+
+.image2 {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 4rem;
+}
+
+.tab3 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4.8rem 2rem 0rem 2rem;
+    margin-right: 4rem;
+}
+
+.acctext {
+    padding-bottom: 3rem;
+}
+
+.image3 {
+    height: 9rem;
+    width: 9rem;
+    /* margin-bottom: 4rem; */
+    /* margin-top: 2rem; */
+}
+
+.tab4 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4.8rem 4rem 0rem 4rem;
+    /* position: absolute;
+    left: 86rem;
+    top: 6.5rem; */
+}
+
+.writingtext {
+    padding-bottom: 3rem;
+}
+
+.image4 {
+    height: 9rem;
+    width: 9rem;
+    /* margin-bottom: 4rem;
+    margin-top: 2rem; */
+}
+
+.tab5 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4rem 3.8rem 3rem 3.8rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-right: 3.8rem;
+}
+
+.image5 {
+    height: 9rem;
+    width: 9rem;
+    /* margin-bottom: 4rem; */
+}
+
+.tab6 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4rem 1rem 3rem 1rem;
+    margin-right: 3.6rem;
+}
+
+.image6 {
+    height: 9rem;
+    width: 9rem;
+}
+
+.tab7 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4rem 3rem 3rem 3rem;
+    margin-right: 3.6rem;
+}
+
+.image7 {
+    height: 9rem;
+    width: 9rem;
+}
+
+.tab8 {
+    background: #00aeef;
+    display: inline-block;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 4rem 1.5rem 3rem 1.5rem;
+}
+
+.image8 {
+    height: 9rem;
+    width: 9rem;
+}
+
+.handytab,
+.artisantab,
+.accounttab,
+.writingtab,
+.graphictab,
+.programmingtab,
+.videotab,
+.educationtab {
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Advent Pro', sans-serif;
+    color: #277071;
+    margin-bottom: 1rem;
+}
+
+.howto {
+    width: 100%;
+    height: 45rem;
+    background: rgb(255, 255, 255);
+    padding: 3rem 1rem -1rem 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.lines {
+    flex: 1;
+    order: 1;
+    width: 50%;
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.video {
+    flex: 1;
+    order: 2;
+    width: 50%;
+}
+
+.vid {
+    width: 100%;
+    height: 100%;
+}
+
+.read {
+    text-decoration: none;
+    background: #00aeef;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.testimony {
+    width: 100vw;
+    height: 30rem;
+    background: #f4effb94;
+    padding-top: 1rem;
+}
+
+.testcontainer {
+    display: flex;
+    overflow: hidden;
+}
+
+.testheads {
+    text-align: center;
+    color: #c0090e;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.news {
+    flex: 1;
+    order: 1;
+    width: 50%;
+}
+
+.test {
+    flex: 1;
+    order: 2;
+    width: 50%;
+}
+
+a {
+    cursor: pointer;
+}
+
+.footer {
+    width: 100vw;
+    background: #ff4f55cc;
+    padding: 1rem;
+    height: 20rem;
+}
+
+.footcontainer {
+    display: flex;
+}
+
+.foot1 {
+    flex: 1;
+    order: 1;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
+.foot2 {
+    flex: 1;
+    order: 2;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.foot3 {
+    flex: 1;
+    order: 3;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.foot4 {
+    flex: 1;
+    order: 4;
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.foottext {
+    text-align: center;
+}
+
+.footbtn {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: .5rem 1.5rem;
+    background: #00aeef;
+    color: white;
+    border-radius: 1rem;
+}
